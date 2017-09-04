@@ -77,7 +77,7 @@ public class WindowHeaderExtensionConnector extends AbstractExtensionConnector {
         double visibleChildren = window.header.getChildCount() - 1;
         s.setRight(visibleChildren * 33.0, Style.Unit.PX);
         window.header.getFirstChildElement().getStyle()
-                .setProperty("border-radius", 0.0, Style.Unit.PX);
+                .setProperty("borderRadius", 0.0, Style.Unit.PX);
 
         window.header.insertFirst(buttonDiv);
         addButtonClickListener(buttonDiv);
